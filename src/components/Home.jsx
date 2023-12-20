@@ -64,6 +64,8 @@ const MyCarousel = () => (
     showStatus={false}
     showThumbs={false}
     showArrows={false}
+    preventMovementUntilSwipeScrollTolerance={true}
+    swipeScrollTolerance={50}
   >
     <Box w="full" h={'100vh'}>
       <Image src={img1} h="full" w={'full'} objectFit={'cover'} />
